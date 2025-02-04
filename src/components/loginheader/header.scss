@@ -1,0 +1,39 @@
+@use "../../shared/styles/global.scss";
+
+img {
+	width: 24px;
+	height: 24px;
+}
+.login__header {
+	@include global.flex-row-center;
+    background-color: #fcf5eb;
+    padding: 2% 5%;
+	.logo {
+		@include global.flex-row-center;
+		.login__title {
+			color: #40d777;
+			opacity: 0.8;
+			margin-left: 1%;
+			font-size: 130%;
+		}
+	}
+
+	.header__btn_download {
+		@include global.flex-row-center;
+		background-color: #40d777;
+		flex-basis: 15%;
+		border-radius: 20px;
+		border: 2px solid black;
+		padding: 1%;
+
+		img {
+			background-color: transparent;
+		}
+		.btn_download {
+			border: none;
+			outline: none;
+			background-color: transparent;
+			width: 50%;
+		}
+	}
+}

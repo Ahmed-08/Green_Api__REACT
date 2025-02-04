@@ -1,0 +1,58 @@
+.chat {
+
+    $padding: 16px;
+    $input-height: 50px;
+
+    height: 100vh;
+    background-color: #fcf5eb;
+
+    .container{
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        .messages__block {
+            height: calc(100% - $input-height);
+            padding: $padding;
+            position: absolute;
+            overflow-y: scroll;
+        }
+        
+        .input-container {
+            height: $input-height;
+            padding: 5px 50px;
+            padding-right: 0;
+            bottom: 0;
+            position: absolute;
+            background-color: #f0f2f5;
+        }
+
+        .send-icon {
+            width: 60px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        label {
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            & input {
+                padding: 10px;
+                height: 100%;
+                border: none;
+                border-radius: 8px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+

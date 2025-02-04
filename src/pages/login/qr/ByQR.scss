@@ -1,0 +1,13 @@
+@use "../../../shared/styles/global.scss";
+
+.login {
+	height: 100vh;
+	padding: 2% 5%;
+	.container {
+		@include global.flex-col-center;
+
+        .links{
+            @include global.flex-col-center
+        }
+	}
+}

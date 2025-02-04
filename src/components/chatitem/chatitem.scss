@@ -1,0 +1,21 @@
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+
+  &_active {
+    background: #f0f2f5;
+  }
+
+  &__pic {
+    margin: 0 12px;
+  }
+
+  &__number {
+    width: auto;
+  }
+
+  &:hover{
+    background: #f0f2f5;
+  }
+}

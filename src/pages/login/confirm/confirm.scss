@@ -1,0 +1,21 @@
+@use "../../../shared/styles/global.scss";
+
+.confirm {
+    height: 100vh;
+	.confirm__code {
+        background-color: aqua;
+        @include global.flex-row-center;
+        height: 15%;
+		ol {
+			@include global.flex-row-center;
+
+            background-color: aqua;
+            list-style: none;
+            li{
+                background-color: blueviolet;
+                width: 20px;
+                height: 20px;
+            }
+		}
+	}
+}

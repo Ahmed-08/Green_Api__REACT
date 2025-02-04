@@ -1,0 +1,42 @@
+.message {
+  display: flex;
+
+  &_incoming {
+    justify-content: flex-start;
+
+    & .message__container {
+      background-color: white;
+    }
+  }
+
+  &_outgoing {
+    justify-content: flex-end;
+
+    & .message__container {
+      background-color: #dafbd3;
+    }
+  }
+
+  &__container {
+    width: auto;
+    padding: 0.3em 0.8em;
+    padding-right: 2.8em;
+    margin-bottom: 3px;
+    box-shadow: 0 1px .5px rgba(black, .13);
+    border-radius: 8px;
+    position: relative;
+  }
+
+  &__text {
+    font-size: 1em;
+  }
+
+  &__time {
+    right: 0.8rem;
+    bottom: 0.1rem;
+    color: #667781;
+    font-size: 0.65em;
+    width: auto;
+    position: absolute;
+  }
+}

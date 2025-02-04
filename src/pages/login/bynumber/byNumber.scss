@@ -1,0 +1,22 @@
+.loginNumber {
+
+	.container {
+		height: 100%;
+	}
+	label {
+		display: flex;
+        span{
+            flex-basis: 50%;
+        }
+		input {
+			height: 100%;
+		}
+	}
+
+	.number{
+		display: flex;
+		input{
+			width: 700%;
+		}
+	}
+}
