@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa25ff64.css",
-    "main.js": "/static/js/main.bd783def.js",
-    "static/media/whatsapp.png": "/static/media/whatsapp.02736a253111ffdfca0c.png",
-    "static/media/user.png": "/static/media/user.557587208eb9e232f2ca.png",
-    "static/media/send.png": "/static/media/send.b93d4dc50cf50470e6a5.png",
-    "index.html": "/index.html",
-    "main.aa25ff64.css.map": "/static/css/main.aa25ff64.css.map",
-    "main.bd783def.js.map": "/static/js/main.bd783def.js.map"
+    "main.css": "/Green_Api__REACT/static/css/main.aa25ff64.css",
+    "main.js": "/Green_Api__REACT/static/js/main.b3d62503.js",
+    "static/media/whatsapp.png": "/Green_Api__REACT/static/media/whatsapp.02736a253111ffdfca0c.png",
+    "static/media/user.png": "/Green_Api__REACT/static/media/user.557587208eb9e232f2ca.png",
+    "static/media/send.png": "/Green_Api__REACT/static/media/send.b93d4dc50cf50470e6a5.png",
+    "index.html": "/Green_Api__REACT/index.html",
+    "main.aa25ff64.css.map": "/Green_Api__REACT/static/css/main.aa25ff64.css.map",
+    "main.b3d62503.js.map": "/Green_Api__REACT/static/js/main.b3d62503.js.map"
   },
   "entrypoints": [
     "static/css/main.aa25ff64.css",
-    "static/js/main.bd783def.js"
+    "static/js/main.b3d62503.js"
   ]
 }
